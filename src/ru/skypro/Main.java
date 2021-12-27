@@ -3,7 +3,20 @@ package ru.skypro;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here\
+        int age = 20;
+        boolean isAdult = age > 18;
+
+        byte a = 12;
+        short b = 12000;
+        int c = 12000000;
+        long d = 1200000000L;
+
+        float i = 34.56f;
+        double f = 34.566666;
+
+        char g = 12345;
+
         float firstWeight = 78.2f;
         System.out.println("Вес первого бойца " + firstWeight + " кг");
 
